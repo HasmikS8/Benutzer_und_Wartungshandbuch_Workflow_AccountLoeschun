@@ -1,0 +1,16 @@
+{
+    "inputs": {
+        "method": "DELETE",
+        "uri": "https://graph.microsoft.com/beta/users/@{items('Je_Student')?['MicrosoftE_x002d_Mail']}",
+        "authentication": {
+            "type": "ActiveDirectoryOAuth",
+            "tenant": "0a3840e8-4a8b-4c29-94bc-9508fa58050c",
+            "audience": "https://graph.microsoft.com",
+            "clientId": "c8a8c98d-b463-45e2-b9c5-2e662449f144",
+            "secret": "Eb78Q~7U0Q9UPlGtAoBROpCXHk78LKl5vqvT9avc"
+        }
+    },
+    "metadata": {
+        "operationMetadataId": "99a4e29f-71eb-4d63-8889-ea6e571b4fb3"
+    }
+}
